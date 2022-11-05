@@ -1,0 +1,10 @@
+.notfound{
+    
+    text-align: "center";
+    height: 600em;
+    font-size:60px;
+    color: red;
+    background-image:
+url("../ImageFolder/error404.webp") ;
+     
+}

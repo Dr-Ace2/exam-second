@@ -1,0 +1,38 @@
+.link{
+    
+    margin-left: 10%;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(4, 0, 255);
+}
+.links{
+    text-decoration: none;
+    color: blue;
+    font-weight: 900;
+}
+.homebg{
+
+    background-color: yellow;
+}
+
+.parentDiv{
+    margin-left: 100px;
+}
+
+.users-heading{
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.usersnav{
+    font-size: 20px;
+    color: yellow;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+span{
+    margin:0px;
+}
