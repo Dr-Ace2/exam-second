@@ -1,6 +1,6 @@
 import './App.css';
 import Home from './Component/Home';
-import Users from './Component/Users';
+import Users from './Component/Allrepo';
 import {Route, Routes} from 'react-router-dom';
 import Error from './Component/Error';
 import NotFound from './Component/NotFound';

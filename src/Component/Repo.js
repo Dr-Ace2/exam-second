@@ -9,7 +9,6 @@ const Repo=()=>{
         return JSON.parse(localStorage.getItem('repoName'));
     }
 
-    // const data_url = `https://api.github.com/users/Dr-Ace2/${getRepoName()}`;
 
     const [repo, setRepo]=useState([]);
     const [owner, setOwner] = useState([]);
@@ -33,7 +32,7 @@ const Repo=()=>{
 
     return(
         
-         <div className="card">
+         <div className="card2">
             <Helmet>
                 <title>Github repo app</title>
                 <meta name="description" content="clicking on paginated repositories gives a single repository with additional information fetched from Github"/>
@@ -42,6 +41,7 @@ const Repo=()=>{
             </Helmet>
 
             <h1> My Repository details</h1>
+            <img src={avatar_url} alt="owner"/>
            <h1 className="username">Fullname: {full_name}</h1>
            <h1 className="username">Visiblity: {visibility}</h1>
            <h1 className="username">Created_at: {created_at}</h1>
@@ -50,7 +50,7 @@ const Repo=()=>{
             <p className="cardContent">Login: {login}</p>
            <p className="cardContent">Id: {id}</p>
            <p className="cardContent">DefaultBranch: {default_branch}</p>
-           <img src={avatar_url} alt="owner"/>
+          
          </div>
        );
      
