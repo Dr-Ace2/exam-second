@@ -4,7 +4,6 @@ import Users from './Component/Allrepo';
 import {Route, Routes} from 'react-router-dom';
 import Error from './Component/Error';
 import NotFound from './Component/NotFound';
-import Pagination from './Component/Pagination';
 import Repo from './Component/Repo';
 
 function App() {

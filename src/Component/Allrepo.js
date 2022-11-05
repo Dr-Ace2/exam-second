@@ -1,12 +1,12 @@
-import React, {Link, useState, useEffect } from 'react';
+import React, {useState, useEffect } from 'react';
 import UserCard from "./UserCard";
 import Empty from "./Empty";
 import Pagination from './Pagination';
 import { Helmet } from 'react-helmet-async';
 import "../Component/Styles/Users.css"
-const style ={
-    color:"yellow",
-}
+// const style ={
+//     color:"yellow",
+// }
 
 
 const url = "https://api.github.com/users/Dr-Ace2/repos";
@@ -49,7 +49,7 @@ const url = "https://api.github.com/users/Dr-Ace2/repos";
         <Pagination
           data={users}
           RenderComponent= {UserCard}
-          title=""
+          title="My Repositories"
           pageLimit={5}
           dataLimit={6}
         />

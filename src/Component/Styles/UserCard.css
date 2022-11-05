@@ -4,8 +4,16 @@
     background-color: rgb(191, 138, 69);
     text-align: center;
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
-    margin: 15px 5px;
+    /* margin: 25px 115px; */
+    margin: 0 auto;
+    margin-top: 20px;
     transition: all ease-in-out .2s;
+    
+
+}
+#link1{
+    text-decoration: none;
+    color: yellow;
 }
 
 .card:hover{
@@ -14,6 +22,7 @@
 .cardcontent{
     font-size: 15px;
     font-weight: 600;
+    text-decoration: none;
 }
 .username{
     font-weight: bold;

@@ -1,7 +1,6 @@
 import { Link, Outlet } from "react-router-dom";
 import './Styles/Home.css';
 import { Helmet } from "react-helmet-async";
-import UserCard from "./UserCard";
 
 const Home = () => {
     return(
