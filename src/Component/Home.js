@@ -23,7 +23,7 @@ const Home = () => {
 
              <nav className="homebg">
                 <Link to='/' className="link">Home</Link>
-                <Link to='users' className="link">Users</Link>
+                <Link to='users' className="link">Repos</Link>
 
              </nav>
 
