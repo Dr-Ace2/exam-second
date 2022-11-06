@@ -1,8 +1,17 @@
 import { Link, Outlet } from "react-router-dom";
 import './Styles/Home.css';
 import { Helmet } from "react-helmet-async";
+import { useState } from "react";
 
 const Home = () => {
+
+     const [error, setError]=useState(false);
+     if (error) {throw Error("Something went wrong");}
+
+     const getError =()=>{
+        setError(true)
+     }
+
     return(
          <>
          <Helmet>
@@ -23,7 +32,7 @@ const Home = () => {
                    <p className="usersnav">Navigate to  <Link to='users' className="links">
                     
                     <span>  REPOS</span></Link> to view my repositories</p>
-
+                    <button onClick={getError}>Test Error Boundary</button>
              </div>
              <Outlet/>
          </>

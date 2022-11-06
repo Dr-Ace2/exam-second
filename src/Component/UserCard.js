@@ -22,11 +22,12 @@ const UserCard = (props) => {
 
         const getProp =(prop)=>{
             localStorage.setItem('repoName', JSON.stringify(prop))
+            console.log(prop)
         }
 
 
         return (
-          <div className="card" onClick={getProp(name)}>
+          <div className="card" onClick={() => getProp(name)}>
             <Link to="/repo" id="link1">
             <h1 className="username">Fullname: {full_name}</h1>
             <p className="cardContent">Url: {url}</p>
