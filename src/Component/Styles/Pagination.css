@@ -16,13 +16,16 @@
     cursor: pointer;
   }
   .dataContainer{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    /* display: flex;
-    flex-direction: row; */
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    padding:30px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr ; */
+
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
   }
   
   .paginationItem span {

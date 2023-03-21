@@ -40,12 +40,8 @@ const url = "https://api.github.com/users/Dr-Ace2/repos";
           <link rel="canonical" href='/users'/>
       </Helmet>
 
-
-
-
-
     {users.length > 0 ? (
-      <div>
+      <div  className='repo-container'>
         <Pagination
           data={users}
           RenderComponent= {UserCard}
@@ -57,12 +53,8 @@ const url = "https://api.github.com/users/Dr-Ace2/repos";
     ) : (
      <Empty/>
      )} 
-
-    
   </div>
 )
 
-
 }
-
 export default Users
